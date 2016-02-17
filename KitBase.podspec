@@ -82,7 +82,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/1985apps/KitBase.git", :tag => "0.0.1" }
+  s.source       = { :git => "http://github.com/1985apps/KitBase.git", :tag => "0.0.1", :commit => "69ec5b383ef6de5ec95d0debc7b6cde501cc5092"}
+  # s.source       = { :git => "http://github.com/1985apps/KitBase.git", :commit => "69ec5b383ef6de5ec95d0debc7b6cde501cc5092" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

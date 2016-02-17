@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import AFNetworking
+import SnapKit
 
 class KitBaseViewController : UIViewController {
     
