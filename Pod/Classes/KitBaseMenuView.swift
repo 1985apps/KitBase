@@ -35,7 +35,7 @@ class KitBaseMenuView : UIView {
     }
 
     func callme(sender: AnyObject?){
-        self.delegate?.loadContentViewController(ViewController2())
+//        self.delegate?.loadContentViewController(ViewController2())
     }
     
 }

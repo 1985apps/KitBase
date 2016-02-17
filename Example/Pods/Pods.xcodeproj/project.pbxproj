@@ -33,6 +33,7 @@
 		3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BD7F2C4C0A7BDEE65709020B009FC /* AFAutoPurgingImageCache.m */; };
 		3F77F54E4B0F9A3731612AAF18A71DE7 /* KitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FDD3BE7B0AFB97EF5FA59B09010884 /* KitConfig.swift */; };
 		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8F9559B8ED6FE15685749013CAD345 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42AAFDFE1C750ED10090EAF0 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BF14E4F5E6036405FDFB7AC267452F /* SnapKit.framework */; };
 		4FCDD9C7C1E28B2DABC3073162653661 /* KitMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA5CF3D17AC79F592763D9FD1302D85 /* KitMenuTransition.swift */; };
 		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F1610D378B0186B0310B8F1D037D58A9 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BEF8FF7CBD984A887A5EF4CD56527 /* SwiftSupport.swift */; };
@@ -312,6 +313,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AAFDFE1C750ED10090EAF0 /* SnapKit.framework in Frameworks */,
 				8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */,
 				CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */,
 				28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */,
@@ -365,6 +367,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42AAFDFF1C750EE00090EAF0 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				A9747B88742F429D9A87598E49BC5B5D /* KitMenuDelegate.swift */,
+				0FA5CF3D17AC79F592763D9FD1302D85 /* KitMenuTransition.swift */,
+				F83D08BC71CB1FF2070B1E5253B76CD5 /* KitMenuTransitionXY.swift */,
+				300F2F66985FDD8AA0080F751E538FE8 /* KitMenuViewController.swift */,
+			);
+			name = Menus;
+			sourceTree = "<group>";
+		};
 		43F94B02D5FB52781163A097E3E05D7C /* Pods-KitBase_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,15 +563,12 @@
 		9DF65DB4FE00D1977ADFE0EA69D8077E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				42AAFDFF1C750EE00090EAF0 /* Menus */,
 				7779A70A8179BF8F56FD51F6229228A3 /* KitBaseMenuView.swift */,
 				0A1EB1EA7A66EC8FDA513325690EF47B /* KitBaseViewController.swift */,
 				8E9AEC85D92A6BC831FEC802FD8EABCE /* KitButton.swift */,
 				C9FDD3BE7B0AFB97EF5FA59B09010884 /* KitConfig.swift */,
 				9C524DA5ECE3CE2F1A3D05DE02A694C3 /* KitLabel.swift */,
-				A9747B88742F429D9A87598E49BC5B5D /* KitMenuDelegate.swift */,
-				0FA5CF3D17AC79F592763D9FD1302D85 /* KitMenuTransition.swift */,
-				F83D08BC71CB1FF2070B1E5253B76CD5 /* KitMenuTransitionXY.swift */,
-				300F2F66985FDD8AA0080F751E538FE8 /* KitMenuViewController.swift */,
 				4206B041C33CD66F8D4C625A5EF0A714 /* ReplaceMe.swift */,
 			);
 			path = Classes;
