@@ -10,3 +10,7 @@ target 'KitBase_Tests', :exclusive => true do
 
   pod 'FBSnapshotTestCase'
 end
+
+
+pod 'SnapKit', '~> 0.15.0'
+pod 'AFNetworking'

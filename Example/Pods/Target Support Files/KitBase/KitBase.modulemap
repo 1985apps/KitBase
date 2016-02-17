@@ -1,0 +1,6 @@
+framework module KitBase {
+  umbrella header "KitBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
